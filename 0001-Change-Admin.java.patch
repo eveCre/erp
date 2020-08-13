@@ -1,0 +1,66 @@
+From c5abb166a6894c4ab15f3abcffece27414ba3290 Mon Sep 17 00:00:00 2001
+From: mldn <mldn@163.com>
+Date: Thu, 13 Aug 2020 01:40:54 +0800
+Subject: [PATCH] Change Admin.java
+
+---
+ Admin.java |  2 ++
+ Demo.java  |  1 +
+ patch      | 22 ++++++++++++++++++++++
+ 3 files changed, 25 insertions(+)
+ create mode 100644 patch
+
+diff --git a/Admin.java b/Admin.java
+index 6ad7e0d..8f6ceb2 100644
+--- a/Admin.java
++++ b/Admin.java
+@@ -2,5 +2,7 @@ public class Admin{
+ 	public static void main(String args[]){
+ 		System.out.println("nihao");
+ System.out.println("nihao");
++System.out.println("123");
++System.out.println("000");
+ 	}
+ }
+\ No newline at end of file
+diff --git a/Demo.java b/Demo.java
+index fb8e86d..e6ecbc9 100644
+--- a/Demo.java
++++ b/Demo.java
+@@ -1,3 +1,4 @@
+ public class Demo implements java.io.Serializable{
+ 	private Integer empno;
++	private String
+ }
+\ No newline at end of file
+diff --git a/patch b/patch
+new file mode 100644
+index 0000000..c229a63
+--- /dev/null
++++ b/patch
+@@ -0,0 +1,22 @@
++diff --git a/Admin.java b/Admin.java
++index 6ad7e0d..cf96a6e 100644
++--- a/Admin.java
+++++ b/Admin.java
++@@ -2,5 +2,6 @@ public class Admin{
++ 	public static void main(String args[]){
++ 		System.out.println("nihao");
++ System.out.println("nihao");
+++System.out.println("123");
++ 	}
++ }
++\ No newline at end of file
++diff --git a/Demo.java b/Demo.java
++index fb8e86d..e6ecbc9 100644
++--- a/Demo.java
+++++ b/Demo.java
++@@ -1,3 +1,4 @@
++ public class Demo implements java.io.Serializable{
++ 	private Integer empno;
+++	private String
++ }
++\ No newline at end of file
+-- 
+2.28.0.windows.1
+
